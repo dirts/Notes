@@ -23,13 +23,13 @@ PHP学习笔记 字符串 & 数组
 * explode() : 将字符串转发为数组
 * str_split() 同上
 
-* strrchr() ：首现到最后 
+* strrchr() : 首现到最后 
 * strchr() : 首现到最后
 * strstr() : 同上
 * stristr() : 同上（不区分大小写）
 
-	stristr('lishouyan@zhisland.com', '@zhisland'); // '@zhisland.com'
-	strch('lishouyan@zhisland.com', '@zhisland'); // '@zhisland.com'
+		stristr('lishouyan@zhisland.com', '@zhisland'); // '@zhisland.com'
+		strch('lishouyan@zhisland.com', '@zhisland'); // '@zhisland.com'
 
 * strpos() 字符首现位置
 * stripos() 字符首现位置，/i
