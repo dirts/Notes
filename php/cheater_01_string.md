@@ -12,8 +12,14 @@ PHP学习笔记 字符串 & 数组
 * chunk_split() : 将字符串分割成小块
 * hebrev() ： 转换希伯来逻辑字符为可见字符
 * hebreve() : 转换希伯来文本为可见文本，包括换行符
+
 * html_entity_decode() 转换html字符编码为字符
 * htmlentities() 转换字符为html字符编码
+* htmlspecialchars_decode()
+* htmlspecialchars()
+	
+		html_entity_decode(htmlentities('<div><a href="http://www.baidu.com/?index.php&a=1#mark">中文</div>'));
+		htmlspecialchars_decode(htmlspecialchars('<div><a href="http://www.baidu.com/?index.php&a=1#mark">中文</div>'));
 
 ## 字符串查找类函数
 
@@ -35,7 +41,6 @@ PHP学习笔记 字符串 & 数组
 * stripos() 字符首现位置，/i
 * strrpos() 字符最后出现位置
 * strripos() 字符最后出现位置？ /i
-
 
 ## 字符加密
 
