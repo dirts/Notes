@@ -1,4 +1,4 @@
-PHP学习笔记 字符串 & 数组
+PHP String & Array  字符串& 数组
 =============
 
 # 字符串 String函数
