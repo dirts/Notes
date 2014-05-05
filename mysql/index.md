@@ -42,3 +42,14 @@ Index 索引
 * Index_type 用过的索引方法（BTREE, FULLTEXT, HASH, RTREE）。
 * Comment
 
+
+
+
+
+http://downloads.skysql.com/archive/index/p/mysql/v/
+http://mirror.switch.ch/ftp/mirror/mysql/Downloads/ 
+http://mirrors.sohu.com/
+
+
+
+	yum -y install gcc gcc-c++ make autoconf libtool-ltdl-devel gd-devel freetype-devel libxml2-devel libjpeg-devel libpng-devel openssl-devel curl-devel bison patch unzip libmcrypt-devel libmhash-devel ncurses-devel binutils compat-libstdc++-33 elfutils-libelf elfutils-libelf-devel glibc glibc-common glibc-devel libaio-devel libaio libgcc libstdc++ libstdc++-devel unixODBC unixODBC-devel numactl-devel glibc-headers sudo bzip2 mlocate flex lrzsz sysstat lsof setuptool  system-config-network-tui system-config-firewall-tui ntsysv ntp libaio-devel wget ntp pv lz4 vim rsync dstat iotop innotop telnet iftop expect nc
