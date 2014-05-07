@@ -1,4 +1,4 @@
-Notes
+Notes 
 =====
 ## 学习上的一些思考
 
@@ -31,10 +31,10 @@ Notes
         while true;do
                 count=`ps -ef|grep http|grep -v grep`
                 if [ "$?" != "0" ];then
-        echo    ">>>>no httpd,run it"
-        service httpd start
-        else
-        echo ">>>>httpd is runing..."
-        fi
-        sleep 5
+       	 		echo    ">>>>no httpd,run it"
+        		service httpd start
+        	else
+        		echo ">>>>httpd is runing..."
+        	fi
+        	sleep 5
         done
