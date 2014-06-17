@@ -4,10 +4,13 @@
 
 ## nutcracker
 
-https://github.com/twitter/twemproxy
+获取源码地址(请去google code下载，github的在mac os上安装比较困难):
+	https://github.com/twitter/twemproxy
+	https://code.google.com/p/twemproxy/downloads/list
 
 
-edis Commands Supported
+
+redis Commands Supported
 
 ### Keys Command
 
